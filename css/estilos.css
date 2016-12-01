@@ -1,0 +1,73 @@
+h1
+{
+	color: #cc3300;
+	font-family: arial;
+	text-align: center;
+}
+h2
+{
+	margin-right: 50px;
+	text-align: right; 
+}
+h3
+{
+	color: #cc3300;
+	font-family: arial;
+	
+}
+label
+{
+	white-space: 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#seleccionar_docente
+{
+	font-family: arial;
+	margin-left: 40px;
+}
+#datos_docente
+{
+	font-family: arial;
+	margin-left: 40px;
+    border: 1px solid #cc3300; 
+	border-radius: 8px;
+	padding: 8px;
+}
+#enviar_datos
+{
+	background-color: #cc3300;
+	color: white;
+	text-align: center;
+	border-radius: 10%;
+	font-size: 20px;
+	padding: 10px;
+	box-shadow: 10px 10px 10px black; 
+	margin-left: 30px;
+	cursor: pointer;
+	
+}
+#categoria_nombramiento
+{
+	font-family: arial;
+	margin-left: 40px;
+	display: inline-block;
+	border: 1px solid #cc3300; 
+	border-radius: 8px;
+	padding: 8px;
+}
+input[type="text"]
+{
+	border-radius: 5px;
+	padding: 5px;
+	border: 2px solid #ff6666;
+}
+#fechas
+{
+	font-family: arial;
+	margin-left: 40px;
+	display: inline-block;
+	border: #cc3300 1px solid;
+	border-radius: 8px;
+	padding: 8px;
+}

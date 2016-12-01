@@ -1,0 +1,186 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>Sistema de apoyo administrativo v1.0</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <style>
+            #barra {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: cornsilk;
+                    }
+
+
+
+                li a, .dropbtn {
+                display: inline-block;
+                color: white;
+                padding: 14px 16px;
+                text-decoration: none;
+                }
+
+                a:hover, .dropdown:hover .dropbtn {
+                background-color: white;
+                }
+
+                li.dropdown {
+                    display: inline-block;
+                }
+
+                .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                }
+
+                .dropdown-content a {
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+                }
+
+                .dropdown-content a:hover {background-color: #f1f1f1}
+
+                .dropdown:hover .dropdown-content {
+                display: block;
+                }
+            * {
+                font-family: Garamond, Hoefler Text, Times New Roman, Times, serif;
+                font-size: 15px;
+            }
+            body {
+                background-color: #7ce6ef;
+                
+            }
+            #menu {
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                left: 0px;
+                width: 20%;
+                background-color: cornsilk;
+                
+            }
+            #menu:hover{
+                background-color:antiquewhite;
+                
+            }
+            #content {
+                position: absolute;
+                top: 0px;
+                bottom: 0px;
+                right: 0px;
+                width: 80%;
+            }
+            #main {
+                margin: 0 auto;
+                width: 80%;
+                text-align: center;
+            }
+            ul {
+                list-style: none;
+                margin-top: 4.0em;
+                padding-left: 0.8em;
+            }
+           
+            
+            
+            
+            
+            
+            li {
+                padding-bottom: 0.4em;
+            }
+            h1, h2, a, strong {
+                color: #5f5fe0;
+            }
+            a {
+                text-decoration: none;
+            }
+            h1 {
+                font-size: 28px;
+                margin-top: 1.0em;
+                margin-bottom: 0px;
+                padding-bottom: 0px;
+            }
+            h2 {
+                font-size: 22px;
+                margin-top: 0px;
+                padding-top: 0px;
+            }
+            li a img {
+                width: 25%;
+                vertical-align: middle;
+            }
+            #main img {
+               width: 100%;     
+            }
+            a img {
+                border: none;
+            }
+            #texto{
+                font-size: 17px;
+                color: #5f5fe0;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div id="menu">
+            
+<ul id="barra">
+            <li class="dropdown">
+                <a href="#" class="dropbtn"><strong>Docentes</strong></a>
+                <div class="dropdown-content">
+                    <a href="registro_nombramiento_docente.php">Registro</a>
+                    <a href="modificacion nom docente.php">Modificacion</a>
+                </div>
+                </li>
+            </ul>
+            
+            <ul>
+                <li>
+                    <!-- Home -->
+                    <a id="iniciooo" href="index.html">
+                        <img src="images/inicioo.jpg">
+                        <span id="texto"><strong>Inicio</strong></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="doc/Manual%20OrangeSoft%20S.pdf">
+                        <img src="images/pdff.jpg">
+                        <span id="texto"><strong>Manual PDF</strong></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="doc/Manual%20OrangeSoft%20S.docx">
+                        <img src="images/docc.gif">
+                        <span id="texto"><strong>Manual DOC</strong></span>
+                    </a>
+                </li>
+                <li>
+                    <!-- Contact -->
+                    <a href="contacto.html">
+                        <img src="images/contactt.jpg">
+                        <span id="texto"><strong>Contacto, soporte técnico</strong></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div id="content">
+            <div id="main">
+                <h1>SISTEMA DE APOYO ADMINISTRATIVO</h1>
+                <h2>version 1.0</h2>
+                <img src="images/sistema.jpg"><hr>
+                <p><b>ORANGESOFT S.R.L.</b></p>
+                <p><b>COCHABAMBA - BOLIVIA</b></p>
+            </div>
+        </div>
+    </body>
+</html>
